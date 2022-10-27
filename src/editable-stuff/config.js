@@ -98,20 +98,20 @@ const skills = {
       { name: ".NET", value: 60 },
       {name: "Symfony", value: 40},
     { name: "SQL | NoSQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "React", value: 65 },
+    { name: "Data Structures", value: 65 },
+    { name: "React", value: 50 },
     
     
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Collaboration", value: 65 },
+    { name: "Positivity", value: 90 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Problem Solving", value: 80 },
+    { name: "Empathy", value: 70 },
+      { name: "Creativity", value: 60 },
+      {name:"Agility", value : 60}
   ],
 };
 
