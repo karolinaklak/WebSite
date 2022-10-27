@@ -56,7 +56,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: false,
+  show: true,
   heading: "Recent Projects",
   gitHubUsername: "karolinaklak", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -92,14 +92,15 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "C#", value: 80 },
-    { name: "SQL", value: 75 },
+    { name: "Python", value: 60 },
+    { name: "Django", value: 40},
+    { name: "C#", value: 60 },
+      { name: ".NET", value: 60 },
+      {name: "Symfony", value: 40},
+    { name: "SQL | NoSQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 }
+    
     
   ],
   softSkills: [
