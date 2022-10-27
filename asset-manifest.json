@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/karolinaklak/WebSite/static/css/main.778eeed7.css",
-    "main.js": "/karolinaklak/WebSite/static/js/main.04751e3a.js",
-    "static/js/787.4b24f717.chunk.js": "/karolinaklak/WebSite/static/js/787.4b24f717.chunk.js",
-    "static/media/karolinaklak.png": "/karolinaklak/WebSite/static/media/karolinaklak.ecc484ab402dc386440f.png",
-    "static/media/resume.pdf": "/karolinaklak/WebSite/static/media/resume.672f221d685dd86e3263.pdf",
-    "index.html": "/karolinaklak/WebSite/index.html",
-    "main.778eeed7.css.map": "/karolinaklak/WebSite/static/css/main.778eeed7.css.map",
-    "main.04751e3a.js.map": "/karolinaklak/WebSite/static/js/main.04751e3a.js.map",
-    "787.4b24f717.chunk.js.map": "/karolinaklak/WebSite/static/js/787.4b24f717.chunk.js.map"
+    "main.css": "/WebSite/static/css/main.778eeed7.css",
+    "main.js": "/WebSite/static/js/main.b61f3bd7.js",
+    "static/js/787.4b24f717.chunk.js": "/WebSite/static/js/787.4b24f717.chunk.js",
+    "static/media/karolinaklak.png": "/WebSite/static/media/karolinaklak.ecc484ab402dc386440f.png",
+    "static/media/resume.pdf": "/WebSite/static/media/resume.672f221d685dd86e3263.pdf",
+    "index.html": "/WebSite/index.html",
+    "main.778eeed7.css.map": "/WebSite/static/css/main.778eeed7.css.map",
+    "main.b61f3bd7.js.map": "/WebSite/static/js/main.b61f3bd7.js.map",
+    "787.4b24f717.chunk.js.map": "/WebSite/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.04751e3a.js"
+    "static/js/main.b61f3bd7.js"
   ]
 }
