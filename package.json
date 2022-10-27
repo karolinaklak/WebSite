@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template built to showcase my recent projects.",
-  "homepage": "https://karolinaklak.github.io/WebSite/",
+  "homepage": "https://klak.pro",
   "version": "2.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
