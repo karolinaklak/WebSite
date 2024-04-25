@@ -1,3 +1,5 @@
+//pages.js
+// Configuring the git build
 const ghpages = require("gh-pages");
 const pathname = `${__dirname}/build`;
 const repoURL = "https://github.com/karolinaklak/karolinaklak.github.io.git";
