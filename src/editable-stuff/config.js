@@ -27,18 +27,6 @@ const mainBody = {
 };
 
 // ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
   show: true,
@@ -58,7 +46,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "karolinaklak", //i.e."johnDoe12Gh"
+  gitHubUsername: "karolinaklak",
   reposLength: 4,
   specificRepos: [],
 };
@@ -92,15 +80,17 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "C#", value: 40 },
+    { name: ".NET", value: 40},
     { name: "Python", value: 60 },
-    { name: "Django", value: 40},
-    { name: "C#", value: 60 },
-      { name: ".NET", value: 60 },
-      {name: "Symfony", value: 40},
-    { name: "SQL | NoSQL", value: 75 },
-    { name: "Data Structures", value: 65 },
-    { name: "React", value: 50 },
-    
+    { name: "Angular", value: 20 },
+    { name: "Javascript", value: 20 },
+    { name: "PowerShell", value: 50},
+    { name: "SQL", value: 75 },
+    { name: "Data Governance and Quality", value: 65 },
+    { name: "React", value: 30 },
+    { name: "LaTex", value: 70},
+    { name: "ATLASSIAN (Jira, Trello, Confluence", value: 70}
     
   ],
   softSkills: [
@@ -110,8 +100,8 @@ const skills = {
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 80 },
     { name: "Empathy", value: 70 },
-      { name: "Creativity", value: 60 },
-      {name:"Agility", value : 60}
+    { name: "Creativity", value: 60 },
+    { name:"Agility", value : 80}
   ],
 };
 
@@ -120,7 +110,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for data or back end opportunities as a freelancer ! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for FullStack, Backend or even data opportunities as a freelancer, or for a long term contract ! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "contact@klak.pro",
 };
 
