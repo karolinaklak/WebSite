@@ -82,6 +82,10 @@ const skills = {
   ],
 };
 
+const leadership = {
+  show: false
+};
+
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
@@ -102,12 +106,12 @@ const experiences = {
     },
     {
       role: 'Python Developer',
-      companylogo: require('../assets/img/ch.jpeg'),
+      //companylogo: require('../assets/img/ch.jpeg'),
       date: '12/2022-12/2023',
     },
     {
       role: 'Data Analyst / Data Quality & Data Governance',
-      companylogo: require('../assets/img/ch.jpeg'),
+      //companylogo: require('../assets/img/ch.jpeg'),
       date: '12/2022-12/2023',
     },
     {
