@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Karolina",
   middleName: "",
   lastName: "KLAK",
-    message: " Simplicity, carried to the extreme, becomes elegance. ",
+    message: " Simplicity, carried to the extreme, becomes elegance.",
   icons: [
     {
       image: "fa-github",
@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/CSwithKaro/",
+      url: "https://www.twitter.com/KobraDev1/",
     },
   ],
 };
@@ -34,7 +34,7 @@ const about = {
   imageLink: require("../editable-stuff/karolinaklak.png"),
   imageSize: 375,
   message:
-    "My name is Karolina Klak. I’m a self-taught back end developer with a tendency to Python and C# programming. I'm most passionate about data and cybersecurity, and would like to pursue this passion with writing technical articles. In my free time I like working on open source projects, playing music, cultivating myself and traveling around the world.",
+    "My name is Karolina Klak. I’m a self-taught full stack developer with a tendency to Python and C# programming. I'm most passionate about data and cybersecurity, and would like to pursue this passion with writing technical articles. In my free time I like working on open source projects, playing music, cultivating myself and traveling around the world.",
     resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -51,29 +51,6 @@ const repos = {
   specificRepos: [],
 };
 
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/karolinaklak.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/karolinaklak.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
-};
 
 // SKILLS SECTION
 const skills = {
@@ -90,7 +67,7 @@ const skills = {
     { name: "Data Governance and Quality", value: 65 },
     { name: "React", value: 30 },
     { name: "LaTex", value: 70},
-    { name: "ATLASSIAN (Jira, Trello, Confluence", value: 70}
+    { name: "ATLASSIAN (Jira, Trello, Confluence)", value: 70}
     
   ],
   softSkills: [
@@ -111,7 +88,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for FullStack, Backend or even data opportunities as a freelancer, or for a long term contract ! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "contact@klak.pro",
+  email: "kklak.pro@gmail.com",
 };
 
 
