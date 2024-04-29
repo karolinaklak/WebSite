@@ -85,7 +85,7 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Get in Touch",
   message:
     "I'm currently looking for FullStack, Backend or even data opportunities as a freelancer, or for a long term contract ! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "kklak.pro@gmail.com",
@@ -93,19 +93,35 @@ const getInTouch = {
 
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Back End developer',// Here Add Company Name
-      //companylogo: require('../assets/img/dell.png'),
-      date: 'March 2022',
+      role: 'FullStack Developer',
+      date: '2024-...'
     },
     {
-      role: '.Net developer',
-      //companylogo: require('../assets/img/boeing.png'),
-      date: 'June 2022',
+      role: 'Python Developer',
+      companylogo: require('../assets/img/ch.jpeg'),
+      date: '12/2022-12/2023',
     },
+    {
+      role: 'Data Analyst / Data Quality & Data Governance',
+      companylogo: require('../assets/img/ch.jpeg'),
+      date: '12/2022-12/2023',
+    },
+    {
+      role: 'Python Developer',
+      date: '06/2022-08/2022',
+    },
+    {
+      role: 'Python Developer',
+      date: '02/2022-06/2022',
+    },
+    {
+      role: 'Web Developer',
+      date: '02/2022-06/2022',
+    }
   ]
 }
 
