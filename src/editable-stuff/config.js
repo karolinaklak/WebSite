@@ -95,7 +95,7 @@ const getInTouch = {
   email: "kklak.pro@gmail.com",
 };
 
-
+// EXPERIENCES SECTION
 const experiences = {
   show: true,
   heading: "Experiences",
