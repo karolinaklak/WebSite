@@ -34,7 +34,7 @@ const about = {
   imageLink: require("../editable-stuff/karolinaklak.png"),
   imageSize: 375,
   message:
-    "My name is Karolina Klak. I’m a self-taught full stack developer with a tendency to Python and C# programming. I'm most passionate about data and cybersecurity, and would like to pursue this passion with writing technical articles. In my free time I like working on open source projects, playing music, cultivating myself and traveling around the world.",
+    "My name is Karolina Klak. I’m a self-taught full stack developer with a tendency to Python and C# programming. I'm most passionate about data and cybersecurity, and would like to pursue this passion with writing technical articles. In my free time I like working on open source projects, code in low-level languages, playing music, cultivating myself and traveling around the world.",
     resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -60,13 +60,14 @@ const skills = {
     { name: "C#", value: 40 },
     { name: ".NET", value: 40},
     { name: "Python", value: 60 },
-    { name: "Angular", value: 20 },
     { name: "Javascript", value: 20 },
+    { name: "Angular", value: 30 },
+    { name: "React Native", value: 20 },
+    { name: "React", value: 30 },
     { name: "PowerShell", value: 50},
     { name: "SQL", value: 75 },
-    { name: "Data Governance and Quality", value: 65 },
-    { name: "React", value: 30 },
     { name: "LaTex", value: 70},
+    { name: "Data Governance and Quality", value: 65 },
     { name: "ATLASSIAN (Jira, Trello, Confluence)", value: 70}
     
   ],
@@ -96,10 +97,24 @@ const getInTouch = {
 };
 
 // EXPERIENCES SECTION
+
+// TO DO : 
+// - Add techno stack -> would be great to have icons showed in this section
+//                       maybe 'pythonShow : false/true' -> it would show or not the python icon
 const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    {
+      role: 'FullStack Mobile Developer',
+      date: '05/2024-...'
+      // details : 'Développement d'une application mobile de jardinage pour iOS et Android à l'aide de React Native,
+      // avec une interface utilisateur intuitive et une base de données back-end. Mise en œuvre de fonctionnalités de géolocalisation pour fournir des conseils personnalisés. Optimisation des performances de l'application pour une expérience utilisateur fluide. Publication sur les magasins d'applications avec des évaluations positives. 
+      //Compétences clés : React Native, Redux, géolocalisation, développement mobile.'
+
+      //stack
+
+    },
     {
       role: 'FullStack Developer',
       date: '2024-...'
